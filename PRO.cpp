@@ -18,6 +18,7 @@ int main() {
 		if(count==sizofar)
 		cout<<a[0][i];
 	}
+	///we get output as ra
 		
 	
 	return 0;
