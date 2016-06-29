@@ -20,6 +20,6 @@ int main() {
 		cout<<i;
 	}
 }else 
-cout<<"error";
+cout<<0;
 	return 0;
 }
