@@ -1,4 +1,5 @@
 #include <iostream>
+#include<malloc>
 using namespace std;
 
 int main() {
