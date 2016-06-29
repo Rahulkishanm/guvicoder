@@ -6,7 +6,9 @@ int main() {
 	int *a=(int *)malloc(100);
 	int n;
 	cin>>n;
-	int *counter=(int *)malloc(999999);
+if(n>0)
+{
+	
 	
 	///To get value
 	for(int i=0;i<n;i++)
@@ -28,5 +30,7 @@ int main() {
 		if(flag==1)
 	    break;	
 	}
+}else 
+cout<<"tye correct value";
 	return 0;
 }
