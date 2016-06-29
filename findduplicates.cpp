@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-	int a[100];
+	int *a=(int *)malloc(100);
 	int n;
 	cin>>n;
-	int counter[999999];
+	int *counter=(int *)malloc(999999);
 	
 	///To get value
 	for(int i=0;i<n;i++)
