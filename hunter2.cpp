@@ -16,6 +16,7 @@ int main() {
 	int *arr=(int *)malloc(1000);
 	int n;
 	cin>>n;
+	if(n>0)
 	for(int i=0;i<n;i++)
 	cin>>arr[i];
 	function(arr,n);
