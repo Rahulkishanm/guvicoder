@@ -1,5 +1,4 @@
 #include <iostream>
-#include<malloc>
 using namespace std;
 
 int main() {
@@ -15,8 +14,10 @@ int main() {
 		if(a[i]>0&&a[i]<999999)
 		counter[a[i]]++;
 		else 
+		{
 		 cout<<"enter value between 0 and 999999";
 		 counter[a[i]]++;
+		}
 	}
 	//to print value 
 	for(int k=0;k<n;k++)
