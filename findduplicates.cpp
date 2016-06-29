@@ -9,9 +9,13 @@ int main() {
 	
 	///To get value
 	for(int i=0;i<n;i++)
-	{
+	{   
 		cin>>a[i];
+		if(a[i]>0&&a[i]<999999)
 		counter[a[i]]++;
+		else 
+		 cout<<"enter value between 0 and 999999";
+		 counter[a[i]]++;
 	}
 	//to print value 
 	for(int k=0;k<n;k++)
