@@ -1,3 +1,2 @@
 # guvicoder
-sa
-SADA
+Code for guvi
